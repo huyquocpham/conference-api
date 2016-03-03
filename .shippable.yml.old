@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-  - "5.4.1"
+  - "0.10"
 env:
   - NODE_ENV=travis
 services:
   - mongodb
 after_success:
-  - git push git@heroku.com:conference-api-huy.git master
+  - git push git@heroku.com:conference-api.git master
